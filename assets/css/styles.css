@@ -105,7 +105,7 @@ body {
 }
 
 /* Mobile breakpoint: keep hero image at a fixed height on small phones */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
     .hero-section {
         /* reduce large vertical padding on small screens */
         padding-top: 40px;
