@@ -14,8 +14,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Backgrounds */
 .bg-purple {
     background-color: var(--purple); /* Purple */
+}
+
+.bg-purple-light {
+    background-color: var(--purple-light); /* Light Purple */
+}
+
+.bg-orange {
+    background-color: var(--orange); /* Orange */
+}
+
+.bg-orange-light {
+    background-color: var(--orange-light); /* Light Orange */
 }
 
 .btn-orange {
@@ -133,7 +146,7 @@ body {
 @media screen and (min-width: 992px) {
     /* Increase the min height of service cards on larger screens */
     .services-section .card {
-        min-height: 416px;
+        min-height: 425px;
     }
 }
 
@@ -141,7 +154,7 @@ body {
 @media screen and (min-width: 1200px) {
     /* Increase the min height of service cards on larger screens */
     .services-section .card {
-        min-height: 487px;
+        min-height: 496px;
     }
 }
 
@@ -149,6 +162,6 @@ body {
 @media screen and (min-width: 1400px) {
     /* Increase the min height of service cards on larger screens */
     .services-section .card {
-        min-height: 464px;
+        min-height: 472px;
     }
 }
