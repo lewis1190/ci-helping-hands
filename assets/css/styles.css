@@ -1,0 +1,111 @@
+/* Variables */
+:root {
+    --purple: #593e82;
+    --orange: #fb8c00;
+    --orange-hover: #ef6c00;
+    --white: #ffffff;
+    --light-bg: rgba(255, 255, 255, 0.1);
+    --light-bg-hover: rgba(255, 255, 255, 0.2);
+}
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-purple {
+    background-color: var(--purple); /* Purple */
+}
+
+.btn-orange {
+    background-color: var(--orange); /* Orange */
+    color: white;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: var(--orange-hover);
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: var(--purple);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#hero-image {
+    object-position: bottom center;
+}
+
+/* Services Section */
+.services-section {
+    background-color: var(--orange);
+}
+
+.service-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--purple);
+    color: white;
+    padding: 30px 20px;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 50%;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Mobile breakpoint: keep hero image at a fixed height on small phones */
+@media screen and (min-width: 480px) {
+    .hero-section {
+        /* reduce large vertical padding on small screens */
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* Make the hero image a fixed height and preserve its cover behavior
+       Anchor the visible image area to the bottom using object-position */
+    #hero-image {
+        height: 280px; /* fixed height on phones */
+        width: 100%;
+        object-fit: contain; /* fill the area while preserving aspect ratio */
+        display: block;
+    }
+}
