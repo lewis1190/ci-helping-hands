@@ -1,8 +1,9 @@
 /* Variables */
 :root {
     --purple: #593e82;
+    --purple-light: #695d8e;
     --orange: #fb8c00;
-    --orange-hover: #ef6c00;
+    --orange-light: #e5c981;
     --white: #ffffff;
     --light-bg: rgba(255, 255, 255, 0.1);
     --light-bg-hover: rgba(255, 255, 255, 0.2);
@@ -24,7 +25,7 @@ body {
 }
 
 .btn-orange:hover {
-    background-color: var(--orange-hover);
+    background-color: var(--orange-light); /* Lighter Orange */
     color: white;
 }
 
@@ -47,8 +48,19 @@ body {
 }
 
 /* Services Section */
-.services-section {
+.services-main {
     background-color: var(--orange);
+}
+
+.services-section .card {
+    margin-bottom: 1.5rem;
+    background-color: var(--purple);
+}
+
+.services-section .card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .service-card {
