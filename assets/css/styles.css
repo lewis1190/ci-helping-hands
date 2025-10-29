@@ -14,10 +14,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-body .btn-orange:hover {
-    background-color: var(--orange-light);
-}
-
 .section {
     padding-top: 5rem;
 }
@@ -45,9 +41,8 @@ body .btn-orange:hover {
     border: none;
 }
 
-.btn-orange:hover {
+body .btn-orange:hover {
     background-color: var(--orange-light);
-    color: white;
 }
 
 /* Navbar */
