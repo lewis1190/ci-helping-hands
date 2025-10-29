@@ -3,7 +3,7 @@
     --purple: #593e82;
     --purple-light: #695d8e;
     --orange: #fb8c00;
-    --orange-light: #e5c981;
+    --orange-light: #ffb458;
     --white: #ffffff;
     --light-bg: rgba(255, 255, 255, 0.1);
     --light-bg-hover: rgba(255, 255, 255, 0.2);
@@ -12,6 +12,14 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+body .btn-orange:hover {
+    background-color: var(--orange-light); /* Lighter Orange */
+}
+
+.section {
+    padding-top: 5rem;
 }
 
 /* Backgrounds */
