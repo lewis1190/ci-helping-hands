@@ -121,3 +121,34 @@ body {
         display: block;
     }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .services-section .card {
+        min-height: 455px;
+    }
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Increase the min height of service cards on larger screens */
+    .services-section .card {
+        min-height: 416px;
+    }
+}
+
+/* Extra large devices (large laptops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Increase the min height of service cards on larger screens */
+    .services-section .card {
+        min-height: 487px;
+    }
+}
+
+/* XXL large devices (large laptops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* Increase the min height of service cards on larger screens */
+    .services-section .card {
+        min-height: 464px;
+    }
+}
