@@ -15,7 +15,7 @@ body {
 }
 
 body .btn-orange:hover {
-    background-color: var(--orange-light); /* Lighter Orange */
+    background-color: var(--orange-light);
 }
 
 .section {
@@ -24,29 +24,29 @@ body .btn-orange:hover {
 
 /* Backgrounds */
 .bg-purple {
-    background-color: var(--purple); /* Purple */
+    background-color: var(--purple);
 }
 
 .bg-purple-light {
-    background-color: var(--purple-light); /* Light Purple */
+    background-color: var(--purple-light);
 }
 
 .bg-orange {
-    background-color: var(--orange); /* Orange */
+    background-color: var(--orange);
 }
 
 .bg-orange-light {
-    background-color: var(--orange-light); /* Light Orange */
+    background-color: var(--orange-light);
 }
 
 .btn-orange {
-    background-color: var(--orange); /* Orange */
+    background-color: var(--orange);
     color: white;
     border: none;
 }
 
 .btn-orange:hover {
-    background-color: var(--orange-light); /* Lighter Orange */
+    background-color: var(--orange-light);
     color: white;
 }
 
