@@ -43,6 +43,7 @@ body {
 
 body .btn-orange:hover {
     background-color: var(--orange-light);
+    color: white;
 }
 
 /* Navbar */
