@@ -3,7 +3,7 @@
     --purple: #593e82;
     --purple-light: #695d8e;
     --orange: #fb8c00;
-    --orange-light: #e5c981;
+    --orange-light: #ffb458;
     --white: #ffffff;
     --light-bg: rgba(255, 255, 255, 0.1);
     --light-bg-hover: rgba(255, 255, 255, 0.2);
@@ -14,18 +14,35 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.section {
+    padding-top: 5rem;
+}
+
+/* Backgrounds */
 .bg-purple {
-    background-color: var(--purple); /* Purple */
+    background-color: var(--purple);
+}
+
+.bg-purple-light {
+    background-color: var(--purple-light);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-orange-light {
+    background-color: var(--orange-light);
 }
 
 .btn-orange {
-    background-color: var(--orange); /* Orange */
+    background-color: var(--orange);
     color: white;
     border: none;
 }
 
-.btn-orange:hover {
-    background-color: var(--orange-light); /* Lighter Orange */
+body .btn-orange:hover {
+    background-color: var(--orange-light);
     color: white;
 }
 
@@ -119,5 +136,36 @@ body {
         width: 100%;
         object-fit: contain; /* fill the area while preserving aspect ratio */
         display: block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .services-section .card {
+        min-height: 455px;
+    }
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Increase the min height of service cards on larger screens */
+    .services-section .card {
+        min-height: 425px;
+    }
+}
+
+/* Extra large devices (large laptops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Increase the min height of service cards on larger screens */
+    .services-section .card {
+        min-height: 496px;
+    }
+}
+
+/* XXL large devices (large laptops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* Increase the min height of service cards on larger screens */
+    .services-section .card {
+        min-height: 472px;
     }
 }

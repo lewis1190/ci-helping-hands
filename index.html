@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mental Wellbeing Support</title>
+  <title>Helping Hands | Home</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -38,90 +38,96 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold  text-white" aria-current="page" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Mental Health Resources</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero-section text-white text-center pt-5 pb-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 d-flex flex-column justify-content-center align-items-center mb-4">
-          <h1 class="fw-bold display-3">Helping Hands Support.</h1>
-          <p class="lead mt-2">We're here to help when it <span class="fw-bold">really</span> matters.</p>
-          <div class="d-flex gap-3 justify-content-center">
-            <a href="#" class="btn btn-orange btn-lg mt-3 flex-fill fw-bold">Learn More</a>
-            <a href="#" class="btn btn-orange btn-lg mt-3 flex-fill fw-bold">Contact Us</a>
+  <main>
+    <section class="section hero-section text-white text-center pt-5 pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 d-flex flex-column justify-content-center align-items-center mb-4">
+            <h1 class="fw-bold display-3">Helping Hands Support.</h1>
+            <p class="lead mt-2">We're here to help when it <span class="fw-bold">really</span> matters.</p>
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="#services-main" class="btn btn-orange btn-lg mt-3 flex-fill fw-bold">Learn More</a>
+              <a href="#" class="btn btn-orange btn-lg mt-3 flex-fill fw-bold">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <img id="hero-image" src="./assets/images/hero.png" alt="Mental Health Support">
           </div>
         </div>
-        <div class="col-md-4">
-          <img id="hero-image" src="./assets/images/hero.png" alt="Mental Health Support">
-        </div>
-      </div>
 
-    </div>
-  </section>
+      </div>
+    </section>
+  </main>
+
 
   <!-- About Section -->
-  <section class="about-section py-5 bg-light text-center">
-    <div class="container col-lg-7">
-      <h2 class="fw-bold mb-3 display-3">Our Mission</h2>
-      <p class="text-muted mx-auto">
-        At Helping Hands, our mission is to provide compassionate support and resources for mental wellbeing. We believe in fostering a community where everyone feels valued, heard, and empowered to seek help when needed.
-      </p>
-      <p class="text-muted mx-auto">
-        Whether you're looking for information, assistance, or simply someone to talk to, we're here to lend a helping hand.
-      </p>
-    </div>
-  </section>
+  <main>
+    <section class="section about-section py-5 bg-light text-center">
+      <div class="container col-lg-7">
+        <h2 class="fw-bold mb-3 display-3">Our Mission</h2>
+        <p class="text-muted mx-auto">
+          At Helping Hands, our mission is to provide compassionate support and resources for mental wellbeing. We believe in fostering a community where everyone feels valued, heard, and empowered to seek help when needed.
+        </p>
+        <p class="text-muted mx-auto">
+          Whether you're looking for information, assistance, or simply someone to talk to, we're here to lend a helping hand.
+        </p>
+      </div>
+    </section>
+  </main>
 
-  <main class="services-main">
-    <!-- Services Section -->
-    <section class="services-section py-5 text-white container">
+
+  <!-- Services Section -->
+  <main id="services-main" class="services-main">
+    <section class="section services-section text-white container">
       <div class="row ">
         <h2 class="text-center fw-bold mb-5 display-3">Our Hands</h2>
-        <div class="col-md-6 col-lg-3 ">
+        <div class="col-md-6 col-xl-3 ">
           <div class="card">
-            <img src="./assets/images/hero.png" class="card-img-top" alt="...">
-            <div class="card-body d-flex flex-column text-white">
+            <img src="./assets/images/hero.png" class="card-img-top" alt="Illustration of a woman with her eyes closed, practicing meditation">
+            <div class="card-body text-white d-flex flex-column">
               <h5 class="card-title">Information About Mental Wellbeing</h5>
-              <p class="card-text flex-grow-1">Browse resources and information about mental wellbeing. Simple self-care tips and practical coping strategies to links for professional support and community services. <br><br> We're here to help you feel understood, supported, and empowered.</p>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <p class="card-text">Browse resources and information about mental wellbeing. Feel understood, supported, and empowered.</p>
+              <a href="#" class="btn btn-lg btn-orange fw-bold mt-auto">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 ">
+        <div class="col-md-6 col-xl-3 ">
           <div class="card">
-            <img src="./assets/images/community.png" class="card-img-top" alt="...">
-            <div class="card-body text-white">
+            <img src="./assets/images/service-cards/community.png" class="card-img-top" alt="Illustration of a diverse group of people coming together">
+            <div class="card-body text-white d-flex flex-column">
               <h5 class="card-title">Helping our Community</h5>
               <p class="card-text">We're dedicated to supporting our community through various initiatives and programs. See some testimonials of how we're making a difference.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-lg btn-orange fw-bold mt-auto">View Testimonials</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-xl-3">
           <div class="card">
-            <img src="./assets/images/need-a-hand.png" class="card-img-top" alt="...">
-            <div class="card-body text-white">
+            <img src="./assets/images/service-cards/need-a-hand.png" class="card-img-top" alt="Illustration of a hand reaching out to help another hand">
+            <div class="card-body text-white d-flex flex-column">
               <h5 class="card-title">Need a Hand?</h5>
               <p class="card-text">If you or someone you know is struggling, we're here to help. Reach out to us for support and guidance.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-lg btn-orange fw-bold mt-auto">Get Support</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-xl-3">
           <div class="card">
-            <img src="./assets/images/lend-a-hand.png" class="card-img-top" alt="...">
-            <div class="card-body text-white">
+            <img src="./assets/images/service-cards/lend-a-hand.png" class="card-img-top" alt="Illustration of a person reaching down to help another person up">
+            <div class="card-body text-white d-flex flex-column">
               <h5 class="card-title">Want to lend a Hand?</h5>
               <p class="card-text">If you're interested in volunteering or supporting our cause, we'd love to hear from you. <br><br> Together, we can make a difference.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-lg btn-orange fw-bold mt-auto">Learn More</a>
             </div>
           </div>
         </div>
@@ -129,13 +135,60 @@
     </section>
   </main>
 
+  <!-- Newsletter Sign-up Section -->
+  <main>
+    <section class="py-5 bg-light text-center">
+      <div class="container col-lg-7">
+        <h2 class="fw-bold mb-3 display-3">Stay In Touch!</h2>
+        <p class="text-muted mx-auto">
+          Sign up for our newsletter to receive the latest updates, resources, and support directly in your inbox.
+        </p>
+        <p class="text-muted mx-auto">
+          We send 1 email per month to our community to help them stay informed about mental wellbeing and our recent activities.
+        </p>
+      </div>
+      <div class="container col-lg-7">
+        <form class="p-4 bg-purple rounded shadow-sm">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label fw-semibold text-white">First name</label>
+              <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Good" required>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label fw-semibold text-white">Last name</label>
+              <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Samaritan" required>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label fw-semibold text-white">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="col-12 px-4 justify-content-start d-flex">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="consent" id="consent" required>
+                <label class="form-check-label text-white" for="consent">
+                  I consent to the processing of my data for newsletter and support communications.
+                </label>
+              </div>
+            </div>
+
+            <div class="col-12 d-grid">
+              <button class="btn btn-orange btn-lg fw-bold" type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container col-10">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <p class="mb-0 text-sm-center">&copy; 2025 Helping Hands Ltd. All rights reserved.</p>
+          <p class="mb-0 text-sm-center text-md-start">&copy; 2025 Helping Hands Ltd. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end text-center mt-3 mt-md-0">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon">
