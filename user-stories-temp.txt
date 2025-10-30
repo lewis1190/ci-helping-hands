@@ -1,0 +1,10 @@
+- As a visitor, I want a calming hero section with an encouraging headline and background image so I feel welcomed immediately.
+- As the site owner, I want to publish the static site to GitHub Pages so it is accessible online.
+- As a user, I want a set of information cards that clearly present common mental health topics so I can scan and learn quickly.
+- As a mobile user, I want the site to be fully responsive so content is usable on phones and tablets.
+- As a visitor, I want a Positive Affirmations section with short uplifting messages so I can leave the site feeling encouraged.
+- As a visitor seeking help, I want a resource links grid with clear calls-to-action so I can access external support easily.
+- As the site owner, I want a calm, consistent color scheme and typography so the site feels welcoming and cohesive.
+- As a user with visual impairments, I want the site to follow basic accessibility best practices so I can navigate and read content easily.
+- As a content editor, I want modular HTML sections and clear class names so I can update content without breaking layout.
+- As the site owner, I want basic SEO and metadata so the site is discoverable and shares well on social platforms.
