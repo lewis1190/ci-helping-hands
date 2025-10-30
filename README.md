@@ -1,10 +1,31 @@
 # Helping Hands
 
+## Table of Contents
+
+-   [Introduction](#introduction)
+    -   [What "Helping Hands" Is](#what-helping-hands-is)
+    -   [Standout Features](#standout-features)
+    -   ["The AI Bit"; how I used AI in this project](#the-ai-bit-how-i-used-ai-in-this-project)
+    -   [Copyright / DMCA Compliance](#copyright--dmca-compliance)
+    -   [Leftovers / Cut Features / Other TODOs](#leftovers--cut-features--other-todos)
+-   [Site Screenshots](#site-screenshots)
+-   [UX / UI Design](#ux--ui-design)
+    -   [Fonts and Typography](#fonts-and-typography)
+    -   [Color Palette](#color-palette)
+    -   [Branding](#branding)
+    -   [Wireframes](#wireframes)
+-   [User Stories](#user-stories)
+-   [Testing and Validation](#testing-and-validation)
+    -   [HTML Validator](#html-validator)
+    -   [CSS Validator](#css-validator)
+    -   [AutoPrefixer Usage](#autoprefixer-usage)
+    -   [Lighthouse Audits](#lighthouse-audits)
+
 ## Introduction
 
 Helping Hands is a mental health awareness and support website designed to provide accessible, welcoming resources for individuals seeking information and help with their mental wellbeing. Visitors can explore common mental health topics, learn a bit about the team, and contact the team to request help or offer to volunteer.
 
-### What It Is
+### What "Helping Hands" Is
 
 A static, fully responsive website built with a focus on accessibility, clean design, and user-friendly navigation.
 
@@ -31,6 +52,7 @@ The use of generative AI played a key role in the development of this project. A
 -   **Image Generation**: I used ChatGPT to generate the illustrated characters that I used across the whole site. ChatGPT was smart enough to ensure that each image adhered to my specified color palette, as well as keeping the design and appearance of the characters consistent across the different images. I would then edit these images in Photoshop to remove the background colors and crop them roughly to the aspect ratio I needed.
 -   **Text Content Creation**: I used ChatGPT to help me draft the content for the mental health information cards. The Copilot feature in VS Code was particularly useful here, as it could monitor what my project was about, and suggest text content as I scaffold the HTML.
 -   **Layout and Scaffolding**: When dealing with complex layouts (e.g. the mental health info panels), I asked Copilot to generate me the rough grid structure in HTML and Bootstrap classes. These often has small styling issues, so a full understanding of Bootstrap and HTML was required from me in order to tweak the styles to exactly how I wanted them.
+-   **Documentation Clarity**: I used ChatGPT to help me proofread and clarify sections of this README file, ensuring that my explanations made sense. I also used it to generate the contents page at the top of this README!
 
 ### Copyright / DMCA Compliance
 
