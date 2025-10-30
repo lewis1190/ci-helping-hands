@@ -67,6 +67,7 @@ body .btn-purple:hover {
 
 /* Hero Section */
 #hero-image {
+    -o-object-position: bottom center;
     object-position: bottom center;
 }
 
@@ -78,13 +79,16 @@ body .btn-purple:hover {
 
 .services-section .card .card-img-top {
     height: 200px;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: top;
     object-position: top;
 }
 
 /* About Us */
 #team-section .card-img-top {
     height: 250px;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -102,8 +106,14 @@ body .btn-purple:hover {
 }
 
 .social-icon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 40px;
     height: 40px;
@@ -111,6 +121,8 @@ body .btn-purple:hover {
     color: white;
     border-radius: 50%;
     margin-left: 15px;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
     text-decoration: none;
 }
@@ -132,6 +144,7 @@ body .btn-purple:hover {
     #hero-image {
         height: 280px; /* fixed height on phones */
         width: 100%;
+        -o-object-fit: contain;
         object-fit: contain; /* fill the area while preserving aspect ratio */
         display: block;
     }
