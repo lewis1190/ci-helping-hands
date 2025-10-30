@@ -77,7 +77,8 @@ body .btn-purple:hover {
 }
 
 /* Services Section */
-.services-main {
+/* TODO: Move to global styles */
+.orange-main {
     background-color: var(--orange);
 }
 
@@ -144,6 +145,15 @@ body .btn-purple:hover {
         width: 100%;
         object-fit: contain; /* fill the area while preserving aspect ratio */
         display: block;
+    }
+}
+
+/* Mobile phones, styles removed at md style */
+@media screen and (max-width: 768px) {
+    /* Lock the height of the images on the conditions cards on mobile view. */
+    /* Only apply when image is at the top of the card (when on mobile) */
+    .card .jumbo-card-image {
+        height: 250px;
     }
 }
 
