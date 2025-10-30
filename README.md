@@ -6,7 +6,15 @@ Helping Hands is a mental health awareness and support website designed to provi
 
 ### What It Is
 
-A static, fully responsive website built with a focus on accessibility, clean design, and user-friendly navigation. The project emphasizes a calm, consistent visual identity with soothing color schemes and typography.
+A static, fully responsive website built with a focus on accessibility, clean design, and user-friendly navigation.
+
+Page-by-page, the site includes:
+
+-   **Home Page**: Nice banner image, immediate reveal of the illustrated character that will be used across the site. A brief strapline about the purpose of Helping Hands, followed by a set of cards summarizing to users the type of content available on the site. The user will be signposted to other features either from here or the navigation bar.
+-   **About Page**: Information about the mission and values of Helping Hands, along with profiles of the team members involved in running the site and providing support.
+-   **Mental Health Resources**: A dedicated section with information cards on common mental health topics and problems. The site explains what each diagnosis is, how to spot the signs, and mindful tips for coping. Each card section ends with a positive affirmation to uplift the user.
+-   **Contact Page**: A simple contact form allowing users to reach out for help or volunteer their time. The form includes fields for name, email, subject, drop-down for the topic of the message, and finally a textarea. All fields have basic validation to ensure all required information is provided.
+-   **Form Submitted Page**: A very simple page to confirm to the user that their form has been successfully submitted, and a button to signpost them back to the home page.
 
 ### Standout Features
 
@@ -127,4 +135,21 @@ I also put together a basic sitemap for my initial idea for the site. As I'll di
 
 ![My form submitted page wireframe](./docs/images/wireframes/contact-received.png)
 
+## User Stories
 
+Below are the user stories I used to guide my development of the site. I briefed ChatGPT with the example brief in the LMS, and requested 10 user stories based on that brief. It also generated the acceptance criteria, and the tasks required.
+
+Below are the top-level user stories only. The full list with acceptance criteria and tasks can be found in the [Github project](https://github.com/users/lewis1190/projects/4/views/1) that I ran for this repo.
+
+-   As a **_visitor_**, I want a calming hero section with an encouraging headline and background image so I feel welcomed immediately.
+-   As the **_site owner_**, I want to publish the static site to GitHub Pages so it is accessible online.
+-   As a **_user_**, I want a set of information cards that clearly present common mental health topics so I can scan and learn quickly.
+-   As a **_mobile user_**, I want the site to be fully responsive so content is usable on phones and tablets.
+-   As a **_visitor_**, I want a Positive Affirmations section with short uplifting messages so I can leave the site feeling encouraged.
+-   As a **_visitor seeking help_**, I want a resource links grid with clear calls-to-action so I can access external support easily.
+-   As the **_site owner_**, I want a calm, consistent color scheme and typography so the site feels welcoming and cohesive.
+-   As a **_user with visual impairments_**, I want the site to follow basic accessibility best practices so I can navigate and read content easily.
+-   As a **_content editor_**, I want modular HTML sections and clear class names so I can update content without breaking layout.
+-   As the **_site owner_**, I want basic SEO and metadata so the site is discoverable and shares well on social platforms.
+
+![Screenshot from my Github Projects for Helping Hands](./docs/images/github-project.png)
