@@ -77,11 +77,6 @@ body .btn-purple:hover {
 }
 
 /* Services Section */
-/* TODO: Move to global styles */
-.orange-main {
-    background-color: var(--orange);
-}
-
 .services-section .card {
     margin-bottom: 1.5rem;
     background-color: var(--purple);
