@@ -153,3 +153,71 @@ Below are the top-level user stories only. The full list with acceptance criteri
 -   As the **_site owner_**, I want basic SEO and metadata so the site is discoverable and shares well on social platforms.
 
 ![Screenshot from my Github Projects for Helping Hands](./docs/images/github-project.png)
+
+## Testing and Validation
+
+Here are the tools I used to verify and validate my code during development:
+
+-   **[HTML Validator](https://validator.w3.org/)**: I used the W3C Markup Validation Service to check my HTML for any syntax errors or issues.
+-   **[CSS Validator](https://jigsaw.w3.org/css-validator/)**: The W3C CSS Validation Service helped me ensure my stylesheets were error-free and followed best practices.
+-   **[Autoprefixer for CSS](https://autoprefixer.github.io/)**: I used Autoprefixer to automatically add vendor prefixes to my CSS rules, ensuring better compatibility with different browsers such as Opera and Safari.
+-   **[Lighthouse for Chrome DevTools](https://developers.google.com/web/tools/lighthouse)**: I used Lighthouse to audit my site for performance, accessibility, and SEO best practices. This was a great way to score my site and identify actionable steps I can take to increase the quality of my site.
+-   **Physical Device Testing**: I tested the site on multiple physical devices, including an iPhone SE, a 2025 iPad, and a Windows 10 desktop and a OnePlus 6T to ensure consistent performance and appearance across different screen sizes and operating systems.
+
+Below are a collection of screenshots of me using all of the above tools.
+
+### HTML Validator
+
+<details>
+
+<summary>W3C Validator Screenshots (click to expand)</summary>
+
+![W3C Validator Screenshot for Home Page](./docs/images/html-validation/index.png)
+
+![W3C Validator Screenshot for About Page](./docs/images/html-validation/about-us.png)
+
+![W3C Validator Screenshot for Mental Health Resources Page](./docs/images/html-validation/mental-health-resources.png)
+
+![W3C Validator Screenshot for Contact Us Page](./docs/images/html-validation/contact-us.png)
+
+![W3C Validator Screenshot for Form Received Page](./docs/images/html-validation/contact-received.png)
+
+</details>
+
+### CSS Validator
+
+<details>
+
+<summary>CSS Validator Screenshot (click to expand)</summary>
+
+![CSS Validator Screenshot for styles.css](./docs/images/css-validation.png)
+
+</details>
+
+### AutoPrefixer Usage
+
+<details>
+
+<summary>AutoPrefixer Usage Screenshot (click to expand)</summary>
+
+![AutoPrefixer Usage Screenshot for styles.css](./docs/images/autoprefixer-usage.png)
+
+</details>
+
+### Lighthouse Audits
+
+<details>
+
+<summary>Lighthouse Audits Screenshots (click to expand)</summary>
+
+![Lighthouse Audits Screenshot for Home Page](./docs/images/lighthouse/index.png)
+
+![Lighthouse Audits Screenshot for About Page](./docs/images/lighthouse/about-us.png)
+
+![Lighthouse Audits Screenshot for Mental Health Resources Page](./docs/images/lighthouse/mental-health-resources.png)
+
+![Lighthouse Audits Screenshot for Contact Us Page](./docs/images/lighthouse/contact-us.png)
+
+![Lighthouse Audits Screenshot for Form Received Page](./docs/images/lighthouse/contact-received.png)
+
+</details>
